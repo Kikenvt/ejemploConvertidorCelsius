@@ -8,12 +8,14 @@
 <body>
     <h1>Conversor de temperatura</h1>
     <p>Ingresa la temperatura en grados Celsius:</p>
-    <p>
-        <form>
-            <input type="number">
-            <input type="button" value="Convertir a Fahrenheit" id="">
-        </form>
-    </p>
-    <p>La temperatura en grados Fahrenheit es: <span></span></p>
+    
+    <input id="celsius" type="number">
+    <button onclick="convertTemperature()">Convertir a Fahrenheit</button>
+
+    
+    <p>La temperatura en grados Fahrenheit es: <span id="fahrenheit"></span></p>
+
+
+    <script src="/scripts/convertidorCelsius.js"></script>
 </body>
 </html>
